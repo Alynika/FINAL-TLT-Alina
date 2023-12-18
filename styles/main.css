@@ -1,0 +1,31 @@
+body{
+    margin: 1%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+    gap: 3em;
+}
+nav ul li a{
+   text-decoration: none;
+   color: black;
+   font-weight: 400;;
+   font-size: 21px;
+}
+a.selected{
+    text-decoration: underline;
+    color: green;
+
+}
+nav{
+    border:1px solid black;
+}
+h1{
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+}
